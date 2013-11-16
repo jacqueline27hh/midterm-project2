@@ -1,0 +1,178 @@
+body
+{
+    margin:0px;
+}
+#ca-header
+{
+    margin-top:-20px;
+    padding:0px;
+    vertical-align: top;
+    height: 50px;
+    background-color:#000;
+    opacity:0.5;
+    color:white;
+
+    filter:alpha(opacity=50); /* For IE8 and earlier */
+
+}
+#ca-nav ul
+{
+    margin-right:50px;
+}
+
+#ca-nav ul li
+{
+    display:inline;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:15px;
+    padding-bottom:10px;
+
+    float:right;
+    border-right:1px solid;
+    font-family:arial;
+}
+
+#ca-nav ul li a:link
+{
+    text-decoration:none;
+    color:white;    
+}
+
+#ca-nav ul li a:visited
+{
+    text-decoration:none;
+    color:white;    
+}
+
+#ca-nav ul li a:hover
+{
+    text-decoration:none;
+    color:#ef6da9;    
+}
+
+#ca-nav ul li a:active
+{
+    text-decoration:none;
+    color:#ef6da9;    
+}
+
+/*portfolio starts here*/
+#gallery-section
+{
+    width:1000px;
+    margin: 50px auto;
+    padding:50px;
+    height:500px;
+    background-color:#000;
+    color:white;
+    
+    font-family: arial;
+    /*opacity:0.9;*/
+
+    /* filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+#gallery
+{
+   
+    padding-top:20px; 
+    margin-left:150px;
+    margin-right: 0px;
+}
+
+#backward
+{
+    float:left;
+    margin-top:220px;
+    padding-left:20;
+}
+
+#forward
+{
+    float:right;
+    margin-top:220px;
+    padding-right:20;
+}
+element.style
+{
+    width:0px;
+}
+#footer
+{
+   
+   
+    bottom:0px;
+    height:auto;
+    width:100%;
+    
+    background-color:#fff;
+    opacity:0.9;
+    color:#888;
+
+
+
+    filter:alpha(opacity=90); /* For IE8 and earlier */
+
+}
+
+
+#footer p
+{
+    font-size: 12px;
+    font-family:sans-serif;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom:0px;
+    margin-top:0px;
+    margin-left:20px;
+    
+
+}
+
+#socialmedia
+{
+    
+    display:inline;
+    margin-left:20px;
+}
+
+#validation
+{
+    float:right;
+    margin-right:20px;
+}
+
+
+
+
+
+
+
+
+
+h1
+{
+    font-family: "SouthBeaches9";
+    font-size:30px;
+}
+
+@font-face {
+    font-family: "ClaireHandLight";
+    src: url("../font/ClaireHandLight.otf");
+}
+@font-face {
+    font-family: "KGSecondChancesSketch";
+    src: url("../font/KGSecondChancesSketch.ttf");
+}
+@font-face {
+    font-family: "KGNexttoMeSketched";
+    src: url("../font/KGNexttoMeSketched.ttf");
+}
+@font-face {
+    font-family: "SouthBeaches9";
+    src: url("../font/SouthBeaches9.ttf");
+}
+
+
+

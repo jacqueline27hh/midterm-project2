@@ -1,0 +1,510 @@
+
+
+body
+{
+    margin:0px;
+    padding:0px;
+}
+
+/*mainNav*/
+#ca-header
+{
+    margin-top:-20px;
+    padding:0px;
+    vertical-align: top;
+    height: 50px;
+    background-color:#000;
+    opacity:0.5;
+    color:white;
+
+    filter:alpha(opacity=50); /* For IE8 and earlier */
+
+}
+#ca-nav ul
+{
+    margin-right:50px;
+}
+
+#ca-nav ul li
+{
+    display:inline;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:15px;
+    padding-bottom:10px;
+
+    float:right;
+    border-right:1px solid;
+    font-family:arial;
+}
+
+#ca-nav ul li a:link
+{
+    text-decoration:none;
+    color:white;    
+}
+
+#ca-nav ul li a:visited
+{
+    text-decoration:none;
+    color:white;    
+}
+
+#ca-nav ul li a:hover
+{
+    text-decoration:none;
+    color:#ef6da9;    
+}
+
+#ca-nav ul li a:active
+{
+    text-decoration:none;
+    color:#ef6da9;    
+}
+/*home*/
+#section-container
+{
+ 	margin: 0 auto;
+    padding-bottom: 60px;
+    position: relative;
+    transition: width 0.5s ease 0s;
+    width: 90%;
+	text-align:center;
+}
+
+#hello
+{
+	
+	font-family:KGSecondChancesSketch;
+	color: #FFFFFF;
+    font-size: 100px;
+    font-weight: normal;
+    line-height: 0.5;
+    position: relative;
+    z-index: 10;
+}
+
+#headline 
+{
+    margin-top: 117.5px; 
+    opacity: 1;
+}
+
+
+#headline span {
+    background: none repeat scroll 0 0 rgba(240, 110, 170, 0.7);
+	font-family: ClaireHandLight;
+	font-size: 30px;
+	padding-top: 10px;
+	line-height: 60px;
+    color: #FFFFFF;
+}
+
+#mainNav ul 
+{
+	position: relative;
+	width: 459px;
+	height: 156px;
+	margin: 0px auto;
+	
+	
+}
+#mainNav ul li a
+{
+
+
+  	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.5em;
+    height: 100%;
+    line-height: 1.1;
+    width: 100%;
+
+}
+
+#mainNav ul li
+  {
+	  display:inline;
+	  float: left;
+  }
+ #mainNav ul li
+ {
+	 text-decoration: none;
+ }
+
+
+ #mainNav li#mainNav-about
+ { 
+ background: url(../img/about.png) 0 0;
+ display: block;
+width : 151px;
+ height : 152px;
+ text-decoration: none;
+ } 
+
+#mainNav li#mainNav-about:hover a
+{
+ background: url(../img/aboutHover.png) 0 0;
+ display: block;
+ width : 151px;
+ height : 152px;	
+ text-align: center;
+ text-decoration:none;	 
+}
+
+ #mainNav li#mainNav-portfolio
+ { 
+ background: url(../img/portfolio.png) 0 0;
+ display: block;
+ width : 151px;
+ height : 152px;
+ text-decoration:none;
+
+ } 
+
+ #mainNav li#mainNav-portfolio:hover a
+{
+ background: url(../img/portfolioHover.png) 0 0;
+ display: block;
+ width : 151px;
+ height : 152px;
+ text-decoration:none;		 
+}
+
+ #mainNav li#mainNav-contact
+ { 
+ background: url(../img/contact.png) 0 0;
+ display: block;
+ width : 151px;
+ height : 152px;
+
+ text-decoration:none;
+ } 
+
+ #mainNav li#mainNav-contact:hover a
+{
+ background: url(../img/contactHover.png)0 0;
+ display: block;
+ width : 151px;
+ height : 152px;	
+ text-decoration:none;	 
+}
+
+/*Home ends here*/
+/*About starts here*/
+
+#ab-box
+{
+    width:1000px;
+    margin: 50px auto;
+    height:auto;
+    background-color:#000;
+    color:white;
+    padding-bottom: 20px;
+    
+    font-family: arial;
+    opacity:0.9;
+
+    filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+#ab-box section
+{
+    width:500px;
+    margin: 10px auto;
+    padding-top: 20px;
+}
+
+#ab-box section p
+{
+    line-height: 200%;
+}
+
+/*About ends here*/
+
+
+
+
+/*About page ends here*/
+
+/*blog page starts here*/
+
+#blog-box
+{
+    width:1000px;
+    margin: 50px auto;
+    height:auto;
+    background-color:#000;
+    color:white;
+    padding-bottom: 100px;
+    
+    font-family: arial;
+    opacity:0.9;
+
+    filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+#blog-box section
+{
+    width:800px;
+    margin: 10px auto;
+    padding-top: 50px;
+}
+
+#blog-form
+{
+    width:400px;
+    margin:0px auto;
+    padding-top: 20px;
+    color:white;
+    font-size:20px;   
+}
+
+/*form element for contact & blog */
+
+label 
+{
+    display: block;
+    margin:5px 0px 5px 0px;
+    font: 18px sans-serif;
+    color:#fff;
+}
+
+input
+{
+    width:250px;
+    margin:0 0 0 0px;
+    font-size:14px;
+    color:#ef6da9;
+    font-weight:bold;
+}
+
+textarea
+{
+    width:400px;
+    margin:0 0 0 0px;
+    height: 150px;
+    font-size:14px;
+    color:#888;
+}
+
+fieldset
+{
+    border:none;
+}
+
+
+.btn
+{
+      
+
+padding: 10px 15px 11px;
+font-size: 18px !important;
+background-color: #57d6c7;
+font-weight: bold;
+text-shadow: 1px 1px #57D6C7;
+color: #ffffff;
+border-radius: 5px;
+border: 1px solid #57D6C7;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+
+
+    
+}
+
+#ca-footer
+{
+   
+    
+    bottom:0px;
+    height:auto;
+    width:100%;
+
+    
+    background-color:#fff;
+    opacity:0.8;
+    color:#888;
+
+
+
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+
+}
+
+
+#ca-footer p
+{
+    font-size: 12px;
+    font-family:sans-serif;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom:0px;
+    margin-top:0px;
+    margin-left:20px;
+    
+
+}
+
+#ca-footer p span
+{
+    color:#ef6da9;
+    
+
+}
+
+/*Blog page ends here */
+
+/*contact starts here */
+#ca-box
+{
+    width:1000px;
+    margin: 50px auto;
+    height:auto;
+    background-color:#000;
+    color:white;
+    padding-bottom: 100px;
+    
+    font-family: arial;
+    opacity:0.9;
+
+    filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+#ca-box section
+{
+    width:800px;
+    margin: 10px auto;
+    padding-top: 50px;
+}
+
+#ca-form
+{
+    width:400px;
+    margin:0px auto;
+    padding-top: 20px;
+    color:white;
+    font-size:20px;   
+}
+/*Contact ends here */
+/*portfolio starts here*/
+#gallery-section
+{
+    width:1000px;
+    margin: 50px auto;
+    padding:50px;
+    height:500px;
+    background-color:#000;
+    color:white;
+    
+    font-family: arial;
+    /*opacity:0.9;*/
+
+    /* filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+#gallery
+{
+   
+    padding-top:20px; 
+    margin-left:150px;
+    margin-right: 0px;
+}
+
+#backward
+{
+    float:left;
+    margin-top:220px;
+    padding-left:20;
+}
+
+#forward
+{
+    float:right;
+    margin-top:220px;
+    padding-right:20;
+}
+element.style
+{
+    width:0px;
+}
+/*gallery ends here*/
+/*footer starts here*/
+#footer
+{
+   
+    position:fixed;
+    bottom:0px;
+    height:auto;
+    width:100%;
+    
+    background-color:#fff;
+    opacity:0.8;
+    color:#888;
+
+
+
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+
+}
+
+#footer p
+{
+    font-size: 12px;
+    font-family:sans-serif;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom:0px;
+    margin-top:0px;
+    margin-left:20px;
+    
+
+}
+
+#footer p span
+{
+    color:#ef6da9;
+}
+
+#socialmedia
+{
+    
+    display:inline;
+    margin-left:20px;
+}
+
+#validation
+{
+    float:right;
+    margin-right:20px;
+}
+
+
+h1
+{
+    font-family: "SouthBeaches9";
+    font-size:30px;
+}
+
+@font-face {
+    font-family: "ClaireHandLight";
+    src: url("../font/ClaireHandLight.otf");
+}
+@font-face {
+    font-family: "KGSecondChancesSketch";
+    src: url("../font/KGSecondChancesSketch.ttf");
+}
+@font-face {
+    font-family: "KGNexttoMeSketched";
+    src: url("../font/KGNexttoMeSketched.ttf");
+}
+@font-face {
+    font-family: "SouthBeaches9";
+    src: url("../font/SouthBeaches9.ttf");
+}
+
+
+
